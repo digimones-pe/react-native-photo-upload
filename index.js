@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Platform
 } from 'react-native'
-import {launchImageLibrary} from 'react-native-image-picker'
+import * as ImagePicker from "react-native-image-picker"
 import ImageResizer from 'react-native-image-resizer'
 import RNFS from 'react-native-fs'
 
